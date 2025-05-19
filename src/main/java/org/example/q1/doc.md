@@ -32,7 +32,7 @@ List<String> anagramas = Anagram.getAnagrams("abc");
 # Explicando o código:
 
 O código foi desenvolvido pensado em um esboço que realizei no Excalidraw, onde eu pensei que
-eu deveria sempre uma letra fixa e permutar as outras letras, assim eu conseguiria. Portanto,
+eu deveria sempre fixar uma letra e permutar as outras letras, assim eu conseguiria. Portanto,
 eu criei uma função recursiva que vai fixando a letra e chamando a função novamente, até que
 eu tenha fixado todas as letras. Basicamente foi essa a ideia. Segue a imagem de como foi pensada a 
 ideia: ![esboço](img.png)
